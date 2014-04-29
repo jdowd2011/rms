@@ -1,0 +1,155 @@
+/* CMX Form Styles */
+body {
+  font: normal 11px sans-serif;
+}
+a { border: none; }
+a:link { border: none; }
+a:visited { border: none; }
+a:hover { border: none; }
+a:active { border: none; }
+form.cmxform p {
+  padding: 1px;
+  margin: 2px;
+}
+form.cmxform fieldset {
+  padding: 0;
+  margin-bottom: 2px;
+}
+form.cmxform legend {
+  padding: 0 2px;
+  font-weight: bold;
+}
+form.cmxform label {
+  display: inline-block;
+  line-height: 1.8;
+  vertical-align: top;
+}
+form.cmxform fieldset ol {
+  margin: 0;
+  padding: 0;
+}
+form.cmxform fieldset li {
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+}
+form.cmxform fieldset fieldset {
+  border: none;
+  margin: 3px 0 0;
+}
+form.cmxform fieldset fieldset legend {
+  padding: 0 0 5px;
+  font-weight: normal;
+}
+form.cmxform fieldset fieldset label {
+  display: block;
+  width: auto;
+}
+form.cmxform em {
+  font-weight: bold;
+  font-style: normal;
+  color: #f00;
+}
+form.cmxform input,
+form.cmxform select,
+form.cmxform textarea {
+  width: 200px;
+}
+form.cmxform input.submit {
+  background-color: #ddd;
+  font: bold 1.0em sans-serif;
+  letter-spacing: 0.2em;
+  border: 2px solid #7b7b7b;
+  border-left: 2px solid #ccc;
+  border-top: 2px solid #ccc;
+}
+form.cmxform input,
+form.cmxform textarea {
+  padding: 0 1px 0 1px;
+  background: #fff;
+  border: 2px solid #7b7b7b;
+  border-right: 2px solid #ddd;
+  border-bottom: 2px solid #ddd;
+}
+form.cmxform input.grayed,
+form.cmxform textarea.grayed {
+  background: #ddd;
+}
+form.cmxform input.focus,
+form.cmxform textarea.focus {
+  padding: 1px;
+  background: #D6FFCF;
+  border: 1px solid #aaa;
+}
+form.cmxform label {
+  width: 140px;
+}
+form.cmxform fieldset fieldset label {
+  margin-left: 143px; /* Width plus 3 (html space) */
+}
+form.cmxform legend {
+  padding: 0;
+  font-weight: bold;
+  _margin: 0 -7px; /* IE Win */
+}
+form.cmxform {
+  background-color: #E0EFC2;
+  color: #333;
+  padding: 3px;
+  border: 1px solid #aaa;
+}
+form.cmxform legend {
+  padding: 2px 5px 3px 5px;
+  background-color: #C9DCA6;
+  border: 1px solid #bc9;
+  color: #333;
+}
+form.cmxform label {
+  padding-left: 5px;
+  color: #333;
+}
+form.cmxform fieldset {
+  border: none;
+  border-top: 1px solid #C9DCA6;
+  background: url(https://web3.unt.edu/riskman/Images/BGs/cmxform-fieldset.gif) left bottom repeat-x;
+}
+form.cmxform fieldset fieldset {
+  background: none;
+}
+form.cmxform fieldset li {
+  padding: 5px;
+  margin: 0;
+  border-bottom: 1px solid #C9DCA6;
+}
+form.cmxform textarea.description {
+  
+}
+form.cmxform div.note {
+  font: bold .8em verdana;
+  padding: 2px 4px 4px 4px;
+  margin: 4px 4px 0 4px;
+  border: 1px solid #ccc;
+  color: #808080;
+}
+form.cmxform .noborder {
+  border: none;
+}
+form.cmxform .right {
+  text-align: right;
+}
+form.cmxform fieldset li a.ThickBox {
+   padding: 2px 6px 4px 8px;
+}
+/*\*//*/
+form.cmxform legend {
+  display: inline-block;
+}
+/* IE Mac legend fix */
+form.AddNewLab {
+  width: 400px;
+}
+h1.corners {
+  padding: 1px 5px 2px 5px;
+  color: #a33;
+  background-color: #C9DCA6;
+}

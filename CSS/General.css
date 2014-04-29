@@ -1,0 +1,402 @@
+html.splitter-invoked,
+    body.splitter-invoked {
+        overflow: hidden !important; 
+    }
+
+	 A.menulinks:link				{ COLOR: #666666; TEXT-DECORATION: none; }
+	 A.menulinks:visited            { COLOR: #666666; TEXT-DECORATION: none; }
+	 A.menulinks:active				{ COLOR: #1A771A; TEXT-DECORATION: none; }
+	 A.menulinks:hover				{ COLOR: #1A771A; TEXT-DECORATION: none; background: none; }
+
+    a:link img, a:visited img, a.active img, a.hover img { border: none; }
+
+    h1 { line-height: 30px; }
+
+	.alphaselect					{ width: 100%; }
+	.alphabettable					{ background: #ffffff; height: 21px; background: #ff0000; font-weight: bold; }
+
+	.alphabetDIV					{ cursor: default; margin: 8px 0 25px 0; height: 22px; color: #999; padding: 2px 0px 2px 0px; border: 3px solid #ddd; text-align: center; }
+	.alphabetTABLE					{  }
+	.alphabetTD					{ display: inline; color: #999; font-family: monospace; padding: 0; text-align: center; }
+
+	.alphabet					{ font-family: monospace; font-size: 14px; border: none; }
+	a.alphabet:link					{ background: none; padding: 3px 7px 3px 7px; font-size: 14px; border: none; }
+	a.alphabet:visited				{ background: none; padding: 3px 7px 3px 7px; font-size: 14px; border: none; }
+	a.alphabet:active				{ color: #800; background: #ff3; padding: 3px 7px 3px 7px; font-size: 14px; border: none; }
+	a.alphabet:hover				{ color: #800; background: #ff3; padding: 3px 7px 3px 7px; font-size: 14px; border: none; cursor: pointer; }
+
+	a.backto_grey:link,a.backto_grey:visited	{ color: #888; }
+	a.backto_grey:active,a.backto_grey:hover	{ color: #d00; }
+
+	.filetypeTD					{ padding: 3px 7px 7px 7px; width: 100px; background: #ddd; }
+
+	input.button					{ padding: 0 .25em; width: auto; overflow: visible; }
+
+	div.navbarsuper				{ border: 1px solid #ffffff; width: 179px; background-color: #ffffff; padding: 0 0 10px 0; margin: 0; text-align: center; }
+	div.navbarsuper div			{ margin: 1px; background: #ffffff; line-height: 20px; text-align: left; border: 1px solid #ffffff; padding: 2px 0 2px 0; height: 20px; overflow: hidden; cursor: pointer; }
+	div.navbarsuper div#image		{ margin-top: 1px; padding: 5px 0 5px 0; height: 133px; color: #FF954E; cursor: default; }
+	ul.navbarsuper				{ list-style-type: none; padding: 0; margin: 0; }
+	ul.navbarsuper a			{ border: 0; font: 12px tahoma,verdana,helvetica,sans-serif; color: #000; }
+	ul.navbarsuper a:link			{ border: 0; font: 12px tahoma,verdana,helvetica,sans-serif; }
+	ul.navbarsuper li.hover div.hover *	{ color: #f11; text-decoration: none; }
+	ul.navbarsuper li.hover div.hover a	{ color: #070; border-bottom: 2px solid #EF832C; font-weight: normal; text-decoration: none; }
+	ul.navbarsuper a:hover			{ border: 0; font: 12px tahoma,verdana,helvetica,sans-serif; text-decoration: none; }
+	ul.navbarsuper a:active			{ border: 0; font: 12px tahoma,verdana,helvetica,sans-serif; text-decoration: none; }
+	ul.navbarsuper a:visited		{ border: 0; font: 12px tahoma,verdana,helvetica,sans-serif; text-decoration: none; }
+	ul.navbarsuper a.current		{ font-weight: bold; color: #f00; }
+	ul.navbarsuper li			{ padding: 0; margin: 0 2px 0 2px; }
+	ul.navbarsuper *			{ line-height: 0; text-decoration: none; }
+	ul.navbarsuper li.menulinks		{ background: #fff; border: 1px solid #fff; }
+	ul.navbarsuper li.hover			{ border: 1px solid #555; border-top: 1px solid #ddd; border-left: 1px solid #ddd; }
+	ul.navbarsuper span.divider		{ border: 0; padding: 3px 5px 3px 5px; line-height: 0; height: 6px; }
+	ul.navbarsuper span.title		{ border: 0; padding: 5px 5px 1px 5px; line-height: 16px; height: 16px; background: none; font-weight: bold; }
+	ul.navbarsuper div.divider		{ border: 1px solid #aaa; background: #ccf; padding: 0; margin: 0; line-height: 0; height: 4px; }
+	ul.navbarsuper li div.bg		{ margin: 0; padding: 1px 8px 0 8px; border: 1px solid #fff; background: #fff; }
+	ul.navbarsuper li div.hover		{ padding: 0 8px 1px 10px; line-height: 18px; background: #FFFCDF; border: 1px solid #66a; border-top: 1px solid #ccf; border-left: 1px solid #ccf; }
+	ul.navbarsuper li span.hyphen		{ font: bold 11px verdana; color: #aaa; }
+
+	.dirtitle					{ border: none; padding: 0 2px 2px 5px; color: #000000; text-align: left; overflow: hidden; width: 40%; font-weight: bold; }
+	.dirname					{ border: none; padding: 0 2px 2px 5px; color: #000; text-align: left; }
+	.dirnumber					{ border: none; padding: 0 2px 2px 5px; color: #000000; text-align: left; }
+	.diremail					{ border: none; padding: 0 2px 2px 5px; color: #000000; text-align: left; }
+
+	.footer						{ font-size: 11px; }
+	.sitefooter					{ font-size: 11px; text-align: center; }
+	a.footer:hover					{  }
+
+	.search_buttons					{ border: 1px solid #FFAE21; background: #BDFFBB; color: #C25D04; }
+	A.search_buttons.link				{ border: 1px solid #FFAE21; background: #BDFFBB; color: #C25D04; }
+	A.search_buttons.active				{ border: 1px solid #FFAE21; background: #BDFFBB; color: #C25D04; }
+	A.search_buttons.visited			{ border: 1px solid #FFAE21; background: #BDFFBB; color: #C25D04; }
+	A.search_buttons.hover				{ border: 1px solid #FFAE21; background: #BDFFBB; color: #C25D04; }
+
+	A.bgcolor:link,A.bgcolor:active,A.bgcolor:visited { background: none; }
+	A.bgcolor:hover					{ background: none; }
+
+	.mastbuttons					{ float: left; text-align: center; margin: 2px 0 2px 0; width: 295px; border: 1px solid #2B85D1; background-color: #BDFFBB; padding: 2px; color: #1B4C1A; }
+    .mastbuttoncontainer            { padding: 0; margin: 0 0 2px 0; }
+
+	a.mastbuttons, a.mastbuttons:link, a.mastbuttons:visited
+							{ position: relative; top: 2px; height: 18px; border: 1px solid #2B85D1; background-color: #BDFFBB; padding: 2px; color: #1B4C1A; line-height: 17px; }
+
+	a.masthover:hover				{ color: #333333; display: block; text-decoration: none; }
+	a.masthoverunder:link,visited,active		{ color: #FF0000; }
+	a.masthoverunder:hover				{ color: #666666; text-decoration: none; }
+
+	a.download:link					{ background: #d9ddcc; padding: 2px; padding-right: 4px; }
+	a.download:hover				{ background: #bdffbb; padding: 2px; padding-right: 4px; }
+	a.download:visited				{ background: #d9ddff; padding: 2px; padding-right: 4px; }
+	a.download:active				{ background: #bdffbb; padding: 2px; padding-right: 4px; }
+
+	a.downloadnounderline:link			{ background: #ddf; padding: 2px 3px 3px 4px; }
+	a.downloadnounderline:visited			{ background: #ddf; padding: 2px 3px 3px 4px; }
+	a.downloadnounderline:active			{ background: #bfb; padding: 2px 2px 3px 5px; }
+	a.downloadnounderline:hover			{ background: #bfb; padding: 2px 2px 3px 5px; text-decoration: none; }
+
+	a.downloadmenu:link				{ background: none; }
+	a.downloadmenu:hover				{ background: #bdffbb; }
+	.downloadfont_black				{ color: #000; font-weight: bold; }
+	.quickdownload_title				{ background: #cfcfcf; border: 1px solid #505050; color: #202020; text-align: center; padding: 1px 5px 2px 5px; font: bold 10px verdana,sans-serif; }
+
+	.formatred					{ color: #ff0000; text-align: right; }
+	.indent-25					{ margin-left: 25px; }
+	.DIVindent-25					{ margin: 0px 0px 25px 25px; }
+	.doclinkDIV					{ margin: 5px; text-align: center; }
+
+	.alphabettable  				{ width: 350px; background: #ffffff; height: 21px; background: #f00; font-weight: bold; }
+
+	.alphabet					{ text-align: center; width: 31px; }
+	a.alphabet:link					{ text-align: center; }
+	 
+	TEXT,TEXTAREA					{ border: 1px solid #0f4d7f; background: #c3d2df; color: #000000; }
+
+	.documentcenter					{ padding: 25px 0px 0px 0px; }
+	.adocumentcenter				{ padding: 15px 0px 0px 0px; }
+	.hrdocumentcenter				{ padding: 15px 0px 15px 0px; }
+
+	.mast 						{ border: 1px solid #ffffff; background-color: #fff; padding: 0px; margin: 0; text-align: center; }
+	.innermast					{ margin: 0 0 0 0; padding: 0 2px 2px 2px; }
+	.weather					{ clear: both; border: 1px solid #990000; background-color: #ffcccc; padding: 5px; margin: 2px 0 0 0; text-align: left; }
+	.weathernone			    { clear: both; border: 1px solid #009900; background-color: #ffffcc; padding: 5px; margin: 2px 0 0 0; text-align: center; }
+	.weathertd					{ text-align: left; background: #fff; padding: 2px 5px 3px 5px; }
+	table.weatherdata span.data			{ font: bold 11px verdana; color: #900; }
+	.phrase						{ height: 20px; border: 1px solid #2B85D1; background-color: #E8F3FC; padding: 5px; margin: 2px 0px 2px 0px; line-height: 19px; text-align: center; }
+	.address					{ border: 1px solid #2B85D1; background-color: #E8F3FC; padding: 5px 5px 6px 5px; margin: 0 0 1px 0; text-align: center; }
+	.searchbox					{ display: none; border: 1px solid #2B85D1; background-color: #FEFFC1; padding-top: 19px; margin: 2px 0 0 0; text-align: center; }
+	.phonebook					{ display: none; border: 1px solid #2B85D1; background-color: #FEFFC1; padding: 5px; margin: 2px 0 2px 0; line-height: 19px; text-align: center; }
+	.personnel					{ display: none; border: 1px solid #2B85D1; background-color: #FEFFC1; padding: 5px; margin: 0px; margin-right: 0px; line-height: 19px; text-align: center; }
+	.rightcontentbox				{ border: 0; float: right; width: 604px; background: none; padding: 0; margin: 0 0 3px 0; }
+	.maincontentbox					{ border: 1px solid #bbbbbb; background-color: #fff; padding: 10px; margin: 2px 0 0 0; font-size: 13px; text-align: left; }
+	.maincontentfooter				{ margin: 5px 0 0 0; background-color: #ffffff; padding: 5px 5px 7px 5px; border-top: 1px solid #cacaca; border-bottom: 1px solid #cacaca; color: #336699; font-size: 11px; }
+
+	div.absolutefooter				{ clear: both; border: 1px solid #cdcdcd; background-color: #fffffb; padding: 9px 10px 10px 10px; margin: 0; } 
+	div.absolutefooter div.information		{ color: #666666; border-bottom: 3px solid #59c; padding: 0 0 5px 1px; }
+	div.webstats					{ float: right; width: 150px; border: 1px solid #505050; padding: 0; margin: 0 0 8px 0; }
+	div.webstats div.title				{ background: #999; color: #fff; text-align: center; cursor: pointer; border: 1px solid #afafaf; }
+	div.webstats div.title span			{ padding: 0px 5px 0px 5px; }
+	div.webstats div.displaydata			{ display: none; margin: 0; padding: 0; }
+	div.webstats div				{ color: #000; padding: 0 3px 0 3px; border-bottom: 1px solid #afafaf; font-size: 10px; font-family: verdana; }
+	div.webstats div b.data				{ float: right; }
+
+	.safetyaspect_li				{ border-bottom: 3px solid #dfdfdf; padding: 2px 2px 5px 2px; }
+	.culturedownloadtitlespan			{ color: #7F0000; font-weight: bold; border: none; padding: 0px 4px 1px 4px; }
+	.culturedownloadspan				{ width: 22%; border: none; padding: 0px; text-align: right; float: right; }
+	.culturedownloaddiv				{ height: 20px; padding: 0px 4px 1px 4px; }
+	.culturedownloadsection				{ text-align: center; font-weight: bold; background: #fff; }
+
+	a.compliancelink:hover				{ border: none; }
+
+	STRONG 						{ color: #000099; }
+
+	/* CLEARFIX */
+	.clearfix_subcon:after				{ content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+	.clearfix_subcon				{ display: inline-table; margin-top: 10px; }
+	/* Hides from IE-mac \*/
+	* html .clearfix {height: 1%;}
+	.clearfix_subcon				{ display: block; }
+	/* End hide from IE-mac */
+
+	.clearfix:after					{ content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+	.clearfix					{ display: inline-table; }
+	/* Hides from IE-mac \*/
+	* html .clearfix				{ height: 1%; }
+	.clearfix					{ display: block; }
+	/* End hide from IE-mac */
+	/* END CLEARFIX */
+
+    .announcements-bold { font-weight: bold; }
+
+    ul.linklist { text-transform:uppercase; border: 1px solid #ddd; padding: 5px; margin: 5px; }
+    ul.linklist * a { color: #006600; }
+    ul.linklist * a:hover { color: #000066; }
+    ul.linklist li { padding: 5px; list-style-type: none; }
+
+	.aed_subtitle 					{ float: left; width: 105px; border-bottom: 2px solid #999; font-weight: bold; margin: 0; padding: 3px 0px 0px 5px; }
+	.aed_subcontent					{ float: right; width: 360px; background: #fff; padding: 0px 3px 1px 3px; margin: 2px; border: 1px solid #ddd; }
+	.aed_subclasstitle 				{ font-weight: bold; margin: 0; padding: 1px 0px 3px 5px; }
+	.aed_subclasscontent			{ background: #fff; padding: 0px 3px 3px 3px; margin: 2px 2px 6px 2px; }
+	.aed_blocktitle					{ border: 1px solid #999; color: #094071; background: #ddd; font-weight: bold; margin: 0px 0px 10px 0px; padding: 3px 3px 3px 3px; text-align: center; }
+	.aed_divblock					{ margin: 0 0 10px 0; padding: 5px; background: #fff; }
+	.aed_linksdiv					{ margin: 0px 5px 10px 5px; }
+	.aed_linkspadding				{ margin: 0px 0px 0px 40px; padding: 3px 3px 3px 25px; border-left: 3px solid #f00; }
+	.aed_programtitle				{ background: #001C9F; font-weight: bold; padding: 3px 3px 5px 3px; border: 1px solid #888; text-align: center; color: #fff; }
+	.aed_programitemtitle				{ padding: 3px; background: #fff; border: 1px solid #999; border-top: 0px; font-weight: bold; }
+	.aed_programitem				{ padding: 3px; background: #fff; color: #600; border-bottom: 1px solid #999; border-right: 1px solid #999; }
+	.aed_locationtitle				{ background: #001C9F; font-weight: bold; padding: 3px 3px 5px 3px; border: 1px solid #888; text-align: center; color: #fff; }
+	.aed_locationitemtitle				{ padding: 3px; background: #505050; color: #fff; border: 1px solid #fff; border-left: none; border-top: 0px; font-weight: bold; text-align: center; }
+	.aed_locationitem				{ padding: 1px 3px 3px 3px; color: #600; border-bottom: 1px solid #999; text-align: center; }
+	.aed_inpage					{ border: 2px solid #ddd; background: #ffc; text-align: center; padding: 1px 3px 2px 3px; }
+
+	form .fix					{ margin-left: 50px; border-bottom: 2px solid #000000; background: none; }
+	form .red					{ color: #ff0000; }
+	form .blue					{ margin-left: 50px; color: #17257B; }
+	form .green					{ color: #177B2F; }
+	form .hidden					{ display: block; }
+	form .SetWidth					{ width: 200px; }
+	form form div.note span.note			{ font-weight: bold; color: #000; }
+	form div.note div				{ padding: 10px 1px 10px 20px; }
+	form div.note span.indent			{ padding: 1px 1px 1px 1px; font-size: 10px; }
+	form td.entryError				{ padding-left: 4px; background: #fff; color: #fff; text-align: center; font-weight: bold; width: 25px; font-size: 16px; }
+
+	div.header						{ display: inline-table; margin: 0; background: #800; border: 5px solid #500; padding: 0; cursor: default; }
+	div.header *						{ margin: 0; }
+	div.header div.wrapper					{ border: 1px solid #D8D9DA; background: #fff; }
+	div.header div.border					{ border: 1px solid #800; background: #800; padding: 4px 5px 5px 5px; }
+
+	div.header div.maintitle				{ float: right; font: bold 16px verdana,helvetica,arial,sans-serif; padding: 0; margin: 1px; text-align: right; }
+	div.header div.u_header					{ color: #059033; font-family: times new roman,times,georgia,serif; font-size: 20px; background: #fff; border: 1px solid #ccc; border-right: 1px solid #888; border-bottom: 1px solid #888; padding: 5px 8px 5px 8px; margin: 0; text-align: center; }
+	div.header div.dept_name				{ font-size: 12px; color: #fff; background: none; border-top: 1px solid #500; padding: 5px 0 0 0; margin: 0; text-align: center; text-decoration: underline; }
+	div.header div.border:after				{ content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+	div.header div.menu					{ line-height: 20px; }
+	div.header div.menu *					{ font: normal 12px verdana,helvetica,arial,sans-serif; color: #9FC2FF; cursor: pointer; }
+
+	div.menu span.click					{ cursor: default; color: #fff; font: bold 11px verdana,helvetica,arial,sans-serif; padding: 1px 3px 1px 3px; border: 1px solid #a00; background: #900; }
+	div.menu a.item						{ color: #fff; font: 12px times; padding: 0 3px 1px 3px; border: 1px solid #f00; background: #111; text-decoration: none; }
+	div.menu a.item:link					{ color: #fff; }
+	div.menu a.item:visited					{ color: #fff; }
+	div.menu a.item:active					{ color: #fff; }
+	div.menu a.item:hover					{ color: #ffd; padding: 0px 3px 1px 3px; border: 1px solid #900; background: #c00; }
+
+	div.header_contact					{ cursor: default; margin: 0 0 0 0; font: 10px verdana,helvetica,arial,sans-serif; background: #ddd; color: #053; border: 5px solid #500; border-top: 0; padding: 3px 5px 3px 5px; }
+	div.header_contact div.title				{ font-weight: bold; }
+	div.header_contact div					{ color: #222; }
+	div.header_contact span.black				{ color: #046; font-weight: bold; }
+
+	div.submenu						{ cursor: default; margin: 0 0 2px 0; font: bold 10px verdana,helvetica,arial,sans-serif; background: #ddd; border: 5px solid #500; border-top: 0; padding: 3px 7px 3px 7px; }
+
+	div.submenu a.mainsubmenu				{ color: #400; font-weight: normal; padding: 2px 5px 2px 5px; border: 1px solid #ddd; text-decoration: none; }
+	div.submenu a.mainsubmenu:link				{ color: #400; }
+	div.submenu a.mainsubmenu:visited			{ color: #400; }
+	div.submenu a.mainsubmenu:active			{ color: #400; }
+	div.submenu a.mainsubmenu:hover				{ color: #ffd; border: 1px solid #666; background: #333; }
+
+	div.sectionbox						{ padding: 0; margin: 1px 0 2px 0; }
+	div.sectionbox *					{ margin: 0; padding: 1px; cursor: default; background: none; color: #111; }
+	div.sectionbox#sec div.wrapper				{ border: none; margin: 0; }
+	div.sectionbox#sec div.shadow				{ background: #D8D9DA; border: none; }
+	div.sectionbox#sec div.outer				{ border: 1px solid #7E8083; background: #fff; margin: 0px; padding: 1px; font: bold 10px verdana,helvetica,arial,sans-serif; color: #505050; }
+	div.sectionbox#sec div.border				{ border: 1px solid #500; background: #C2C4C5; }
+	div.sectionbox#sec div.inner				{ background: #eee; padding: 0; margin: 0; border: 1px solid #666; border-bottom: 1px solid #fff; border-right: 1px solid #fff; }
+
+	div.sectionboxtitle					{ border: 1px solid #aaa; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 5px; margin: 0; background: #ddd; text-align: center; }
+	div.sectionboxtitle span.title				{ color: #000; }
+
+	div.contentbox						{ width: 65%; clear: both; float: right; padding: 0; margin: 0; background: none; }
+	div.contentbox#con div.wrapper				{ margin: 1px; padding: 1px; background: #fff; clear: both; }
+	div.contentbox#con div.border#border			{ border: 1px solid #7E8083; margin: 0; padding: 1px; }
+	div.contentbox#con div.padding#padding			{ border: 1px solid #000; padding: 12px; margin: 0; }
+
+	div.infobox						{ width: 35%; float: left; padding: 0; margin: 0; }
+	div.infobox *						{ margin: 0; padding: 1px; cursor: default; }
+	div.infobox div.wrapper					{ border: none; margin: 0; }
+	div.infobox div.shadow					{ background: #D8D9DA; border: 1px solid #eee; }
+	div.infobox div.outer					{ border: 1px solid #7E8083; background: #fff; margin: 0; padding: 1px; color: #505050; }
+	div.infobox div.border					{ border: 1px solid #500; background: #C2C4C5; }
+	div.infobox div.inner					{ background: #eee; background-image: url('bg-fff-diag.gif'); padding: 0; margin: 0; border: 1px solid #666; border-bottom: 1px solid #fff; border-right: 1px solid #fff; }
+	div.infobox div.inner:hover				{ background: #ffd; padding: 0; margin: 0; border: 1px solid #666; border-bottom: 1px solid #fff; border-right: 1px solid #fff; }
+
+	div#announce div.infoboxtitle span.title		{ text-decoration: underline; line-height: 12px; color: #900; }
+	div.infoboxtitle					{ border: 1px solid #ccc; padding: 4px 4px 5px 4px; margin: 0; background: #ddd; }
+	div.infoboxtitle span.title				{ line-height: 14px; }
+
+	div.infoboxtitle					{ font: normal 10px verdana; }
+	div.infoboxtitle:hover					{ background: #ffd; font: normal 10px verdana; }
+	div.infoboxtitle#title					{ font: normal 10px verdana; color: #00499F; }
+	div.infoboxtitle span.title				{ font-weight: bold; }
+	div.infoboxtitle span.date				{ float: right; color: #333; padding: 0; }
+	div.infoboxtitle span.date span.bold			{ font-weight: bold; padding: 0; line-height: 14px; }
+
+	div.infoboxcontent					{ border: none; border-top: 1px solid #fff; padding: 3px 0px 3px 4px; margin: 0; font: normal 11px verdana,helvetica,arial; color: #800; clear: both; }
+	div.infoboxcontent#w_content				{ display: none; }
+	div.infoboxcontent div.b				{ border-left: 1px solid #bbb; padding: 0px 5px 0px 5px; margin: 0px 0px 0px 3px; }
+	div.infoboxcontent span.subtitle			{ border-bottom: 2px solid #505050; font-weight: bold; font-size: 10px; color: #f00; }
+	div.infoboxcontent div.subcontent			{ margin-top: 5px; }
+
+	div.infoboxcontent div.link				{ color: #500; border: none; text-align: right; padding: 1px 3px 1px 3px; margin: 3px 0px 0px 0px; background: #fff; }
+	div.infoboxcontent a.link				{ color: #500; padding: 0; text-decoration: none; }
+	div.infoboxcontent a.link:link				{ color: #500; }
+	div.infoboxcontent a.link:visited			{ color: #500; }
+	div.infoboxcontent a.link:hover				{ color: #333; border-bottom: 1px dotted #f00; cursor: pointer; }
+	div.filetype						{ border: 1px solid #7E8083; background: #fff; margin: 0 0 0 0; padding: 1px; }
+	div.filetype div.wrapper				{ border: 1px solid #337ACF; padding: 0; }
+
+	table.filetype						{ width: 100%; background: #fff; padding: 0; margin: 0; }
+	table.filetype *					{ padding: 1px; margin: 0px; font: 11px verdana,helvetica,arial,sans-serif; }
+	table.filetype td.title					{ width: 25%; margin: 0; padding: 0; border-right: 1px solid #444; background: #ddd; font-weight: bold; text-align: right; }
+	table.filetype span.title				{ padding: 5px; font-weight: bold; }
+	table.filetype td.content				{ margin: 0; padding: 3px; background: #fff; }
+
+	table.blocknote						{ border: 3px double #333; width: 100%; }
+	table.blocknote td					{ width: 100px; text-align: center; padding: 5px 5px 7px 5px; background: #ffd; font-weight: bold; }
+	table.blocknote td.note					{ width: auto; text-align: center; padding: 5px 5px 7px 5px; background: #ffd; font-weight: normal; text-align: left; }
+	table.blocknote td.instructions				{ background: #0040AF; color: #ffd; }
+	table.blocknote td.alert				{ background: #ff3; color: #000; }
+	table.blocknote td.warning				{ background: #900; color: #fff; }
+
+    div.para						{ margin: 5px 0 15px 0; border-bottom: 3px double #ddd; }
+    /*div.para div.p_title,h2.p_title,h4				{ background: #fff; color: #990000; padding: 2px; font: bold 11px verdana,helvetica,arial,sans-serif; border-bottom: 1px solid #000; text-align: left; }*/
+    div.para h4.added { border: 0; margin: -5px 0 0 0; padding: 0; font: bold 10px verdana,sans-serif; color: #606060; }
+    div.para div.p_content					{ background: #fff; color: #000000; padding: 5px 0 10px 0; margin: 5px 0 5px 0; font: normal 12px verdana,helvetica,arial,sans-serif; border-bottom: 1px solid #999; }
+    div.para div.p_content p { margin: 0 0 15px 0; padding:0; }
+
+	span.cursor						{ cursor: default; }
+	div.infoboxtitle span.cursor				{ cursor: pointer; }
+
+	div#w_extended div.row_header				{ padding: 2px 4px 2px 4px; background: #eee; border: 1px solid #ddd; font-weight: bold; }
+	div#w_extended div.row_data				{ padding: 2px 4px 2px 4px; margin: 0 0 1px 0; text-align: right; background: #fff; border: 1px solid #ddd; }
+
+	div.vertical_rule					{ display: inline; width: 0px; padding: 0; border-left: 1px solid #080; }
+
+	ul.disability_evac li					{ padding: 14px 0px 0px 0px; }
+	ul.disability_evac li ul				{ padding-top: 4px; }
+	ul.disability_evac li ul li				{ padding-top: 4px; font-style: normal; }
+	ul.disability_evac li ul li ol				{ padding-top: 14px; padding-bottom: 8px; }
+	ul.disability_evac li ul li ol li			{ padding: 2px 0px 0px 0px; color: #700; font: bold 12px verdana,helvetica,arial,sans-serif; }
+
+	span.subquestion					{ font: italic 15px times; }
+	span.question						{ font: bold 11px verdana,helvetica,arial,sans-serif; }
+
+	div.worcomintroduction					{ padding: 3px; margin: 0; font: normal 11px verdana,helvetica,arial,sans-serif; }
+	div.worcomintroduction blockquote h4		{ color: #006600; }
+    div.worcomintroduction blockquote span    { padding-left: 15px; }
+	div.worcominstruct					{ border: 3px solid #ddd; padding: 3px; margin: 0; }
+	div.worcominstruct div					{ border: 3px solid #000; padding: 3px 3px 5px 3px; margin: 0; cursor: pointer; text-align: center; }
+	div.worcominstruct a.x,a.x:link,a.x:visited,a.x:hover	{ font-weight: bold; color: #fff; text-decoration: none; border-bottom: 0; }
+	div.worcominstruct div.supervisor			{ float: right; background: #094071; margin-bottom: 4px; }
+	div.worcominstruct div.employee				{ float: left; background: #094071; margin-bottom: 4px; }
+	div.worcominstruct div.selftest				{ float: none; background: #094071; clear: both; }
+	div.worcominstruct:after				{ content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+	div.worcompacket					{ border: 1px solid #000; border-bottom: 3px solid #222; padding: 0; }
+	div.worcompacket div.accident				{ background: #a00; padding: 2px 3px 3px 3px; border-bottom: 1px solid #400; font: bold 11px verdana,helvetica,arial,sans-serif; color: #fff; }
+	div.worcompacket div.instructions			{ padding: 2px 3px 3px 3px; font: bold 11px verdana,helvetica,arial,sans-serif; color: #000; }
+
+	ul.worcomsupervisor li					{ border-bottom: 3px solid #ccc; padding: 3px; }
+	ul.worcomsupervisor li ul li				{ border-bottom: 0; padding: 3px; }
+	ul.worcomsupervisor li div.title			{ background: #000; padding: 2px 3px 3px 3px; font: bold 11px verdana,helvetica,arial,sans-serif; color: #fff; }
+
+	div.worcomdownload a.x,a.x:link,a.x:visited,a.x:hover	{ font-weight: bold; color: #fff; text-decoration: none; border-bottom: 0; }
+	div.worcomdownload					{ border: 3px solid #ddd; padding: 3px; margin: 5px 0 0 0; text-align: center; cursor: pointer; }
+	div.worcomdownload div					{ border: 3px solid #900; background: #333; padding: 3px; margin: 2px 0 3px 0; text-align: center; }
+	div.worcomdownload div.right				{ clear: both; }
+	div.worcomdownload div.text				{ padding: 2px; margin: 2px; border: 0; border-bottom: 3px solid #ddd; cursor: default; font: bold 11px verdana,helvetica,sans-serif; background: #fff; color: #000; text-align: left; }
+	div.worcomdownload div.center				{ float: none; }
+	div.worcomdownload div.downloadheader			{ border: none; border-bottom: 3px solid #ddd; margin: 0; width: 94%; width: 100%; cursor: default; font-weight: bold; color: #000; text-align: center; background: #fff; }
+	div.worcomdownload:after				{ content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+	span.abbr						{ border-bottom: 2px dashed #3B6BEF; }
+
+	div.worcomhidedisplay					{ display: none; }
+
+	form.cheminventory input.SetWidth			{ width: 300px; }
+	form.cheminventory select.SetWidth			{ width: 306px; }
+	form.cheminventory div.textbutton			{ text-align: left; float: left; width: 130px; font: normal 11px verdana; line-height: 22px; background: #fff; color: #000; border: 1px solid #ffffff; padding: 0px 4px 0px 0px; cursor: pointer; }
+	form.cheminventory div.textbutton_active		{ text-align: left; float: left; width: 130px; font: normal 11px verdana; line-height: 22px; background: #ddd; color: #f00; border: 1px solid #a0a0a0; border-right: 1px solid #505050; border: 1px solid #505050; padding: 0px 4px 0px 0px; cursor: pointer; }
+
+	form.accountlogin div					{ text-align: center; }
+	form.accountlogin div.division				{ text-align: center; clear: both; }
+	form.accountlogin div.logintext				{ text-align: right; line-height: 26px; }
+	form.accountlogin div.logindata				{ padding: 3px 25px 3px 3px; float: right; }
+	form.accountlogin div.loginbutton			{ padding: 10px 3px 13px 3px; }
+	form.accountlogin input.loginfields			{ width: 170px; text-align: left; }
+
+	form.accountcreation td.title				{ text-align: right; font-weight: bold; }
+	form.accountcreation td.data				{ color: #fff; background: #800; font: bold 11px verdana,helvetica,arial,sans-serif; text-align: center; }
+	form.accountcreation input.data				{ color: #fff; background: #800; width: 200px; font: bold 11px verdana,helvetica,arial,sans-serif; text-align: center; border: none; }
+	form.accountcreation td.dataError			{ color: #000; border: 1px solid #f00; font: normal 11px verdana,helvetica,arial,sans-serif; text-align: center; }
+	form.accountcreation div.note				{ text-align: center; background: #505050; color: #fff; width: 204px; }
+
+	form.workorders	input.setWidth				{ width: 200px; }
+	form.workorders td.multiple-option			{ border-bottom: 2px solid #ddd; padding: 8px 0 10px 0; }
+	form.workorders td.multiple-option div.options		{ display: none; clear: both; padding: 8px 0 10px 0; }
+	form.workorders td.multiple-option h4			{ text-align: center; font-size: 12px; font-weight: bold; display: inline; padding-bottom: 4px; }
+	form.workorders td.multiple-option div.options h4	{ color: #800; padding-bottom: 4px; }
+	form.workorders div.checkbox_float			{ float: right; width: 48%; text-align: left; }
+	form.workorders div.container				{ display: block; width: 100%; }
+	form.workorders div.container:after			{ content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+	form.projectreview input.setWidth			{ width: 200px; }
+	form.projectreview td.multiple-option			{ border-bottom: 2px solid #ddd; padding: 8px 0 10px 0; }
+	form.projectreview td.multiple-option div.options	{ display: none; clear: both; padding: 8px 0 10px 0; }
+	form.projectreview td.multiple-option h4		{ text-align: center; font-size: 12px; font-weight: bold; display: inline; padding-bottom: 4px; }
+	form.projectreview td.multiple-option div.options h4	{ color: #800; padding-bottom: 4px; }
+	form.projectreview div.checkbox_float			{ float: right; width: 48%; text-align: left; }
+	form.projectreview div.container			{ display: block; width: 100%; }
+	form.projectreview div.container:after			{ content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+	div.acctmanage						{ border: 1px solid #900; padding: 7px; margin: 4px; }
+
+
+.figuretext {
+  font-weight: bold;
+  padding: 3px;
+  font-size: .9em;
+  width: 75%;
+  vertical-align: top;
+}
+.figureimg td {
+}
+.figureimg img {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.navbarsuper,
+div.absolutefooter,
+div.mast,
+div.mastbuttoncontainer,
+div.weathernone,
+div.weather,
+div.phrase,
+div.address,
+div.searchspot,
+div.phonebook,
+div.maincontentfooter,
+table.user-dashboard {
+  display: none;
+}
+
+div#maincontenboxID,
+div.rightcontentbox {
+  width: 100%;
+}

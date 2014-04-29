@@ -1,0 +1,564 @@
+/* Sticky Footer by Ryan Fait http://ryanfait.com/ */
+
+html, body {
+  height: 100%;
+}
+#body-no-footer {
+  margin-right: 200px;
+  margin-left: 200px;
+  width: 1600px;
+  min-height: 100%;
+  /*height: 100%;*/
+  margin: 0 auto -203px !important;
+/*  overflow: hidden;*/
+}
+#body-footer {
+  height: 200px;
+}
+#push {
+  height: 203px;
+  clear: both;
+}
+body {
+  background: url(https://web3.unt.edu/riskman/Images/BGs/body.jpg) repeat-x;
+  padding: 0;
+  margin: 0;
+  font-family: Geneva,sans-serif,Verdana;
+}
+a:hover {
+  color: #36F;
+}
+a, h1, h2, h3, h4 {
+  color: #057013;
+}
+h1, h2, h3, h4, h5 {
+  margin: 4px -6px;
+  padding: 0 6px 6px;
+}
+/*h2, h3 {
+  border-bottom: 1px solid #ddd;
+}*/
+h4, h5 {
+  font-size: 1em;
+  line-height: 1em !important;
+}
+
+.tocheadings {
+	font-size: 1.1em !important;
+	line-height: 1.1em !important;
+}
+
+h1 {
+  font-size: 1.4em;
+  line-height: 1.4em !important;
+}
+h2 {
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
+h3 {
+  font-size: 1.1em;
+  line-height: 1.1em !important;
+  color: #059033;
+}
+h4, h5 {
+}
+/* BEGIN Confluence Theming */
+#full-height-container {
+  background: none;
+  height: 100%;
+  overflow: auto !important;
+  overflow-x: auto !important;	
+}
+#header,
+#messageContainer {
+  margin-right: -3px;
+  padding: 0 0 0 0;
+}
+
+#main-header{
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 0 !important;
+}
+
+#comments-section-title {
+  margin-left: 0;
+}
+
+.aui-nav{
+	margin-top: 10px !important;
+}
+
+.quick-search-query{
+	margin-top: 0 !important;
+}
+
+.splitter-invoked, html.splitter-invoked{
+	overflow: visible !important;
+}
+
+#main {
+  padding: 0 5px 20px;
+  /*margin-top: -4px;*/
+}
+
+.wiki-content{
+	margin-top: 0 !important;
+}
+
+.panelMacro {
+   margin-bottom: 10px !important;	
+}
+
+.page-metadata 
+{
+  transition         : opacity .25s ease-in-out;
+  -moz-transition    : opacity .25s ease-in-out;
+  -webkit-transition : opacity .25s ease-in-out;
+}
+
+#main #page-header h1 {
+  padding: 4px 6px 0;
+}
+#main #content {
+  padding: 6px;
+}
+.page-weather {
+  clear: both;
+  border: 1px solid #990000;
+  background-color: #ffcccc;
+  padding: 5px;
+  margin: 2px 0 0 0;
+  text-align: left;
+}
+.weathernone {
+  clear: both;
+  border: 1px solid #009900;
+  background-color: #ffffcc;
+  color: #900;
+  padding: 5px; 
+  margin: 2px 0 0 0;
+  text-align: center;
+}
+.weathertd {
+  text-align: left;
+  background: #fff;
+  padding: 2px 5px 3px 5px; 
+}
+table.weatherdata span.data {
+  font: bold 11px verdana;
+  color: #900;
+}
+.wiki-content {
+  margin-top: 15px;
+}
+#main #content .page-metadata {
+  margin-top: 0;
+}
+.wiki-content h1,
+.wiki-content h2,
+.wiki-content h3,
+.wiki-content h4,
+.wiki-content h5 {
+  margin: 4px 0;
+  border-bottom: none !important;
+}
+#main a:hover {
+  color: #36F !important;
+}
+#main .ajs-menu-bar a:hover {
+  color: #fff !important;
+}
+#main a,
+#main h1,
+#main h2,
+#main h3,
+#main h4,
+#body-footer a,
+#body-footer h1,
+#body-footer h2,
+#body-footer h3,
+#body-footer h4 {
+  color: #057013 !important;
+}
+.ajs-menu-bar li.ajs-button a:hover {
+  color: white !important;
+}
+#header {
+  padding: 0 0px;
+}
+
+#wysiwyg #rte {
+	height: 500px !important;
+}
+
+body.contenteditor {
+	overflow: auto !important;
+	overflow-x: auto !important;	
+}
+
+.page-metadata{
+	margin: 0 0 0 0;
+}
+
+#footer {
+  display: inline !important;
+}
+
+#header #breadcrumbs {
+	margin-left: 5px;
+  /*display: none;*/
+}
+/* END Confluence Theming */
+.save_result h5,
+.save_failure h5 {
+  padding: 0 12px 9px !important;
+}
+#body-no-footer,
+#outer-bottom,
+#footer-outer {
+  width: 1200px !important;	
+  /*width: 999px;*/
+  padding: 0 0px 0 0px;
+}
+#outer-bottom,
+#footer-outer {
+  margin: 0 auto;
+}
+#body-no-footer {
+  background: url(https://web3.unt.edu/riskman/Images/BGs/mainbg-body.png) repeat-y;
+}
+#body-footer p {
+  padding: 0;
+  margin: 0;
+}
+#header-outer {
+  background: url(https://web3.unt.edu/riskman/Images/BGs/body.jpg) repeat-x;
+  background-position: 0 -2px;
+  background-color: #444;
+  margin-top: -25px;
+  padding-top: 23px;
+  margin-right: -3px;
+}
+#header-inner {
+  overflow: auto;
+}
+#unt-logo {
+  float: right;
+  margin: 14px 25px 0 0;
+  background: url(https://web3.unt.edu/riskman/Images/BGs/unt-brand.png) no-repeat;
+  width: 140px;
+  height: 55px;
+  cursor: pointer;
+}
+#department-title {
+  float: left;
+  margin: 0 0 0 25px;
+  background: url(https://web3.unt.edu/riskman/Images/rms-lettermark-stacked.png) no-repeat;
+  background-position: 5px 5px;
+  width: 290px;
+  height: 75px;
+  cursor: pointer;
+}
+#outer-bottom {
+  /*background: url(https://web3.unt.edu/riskman/Images/BGs/mainbg-btm.png) no-repeat;*/
+  background-color: #fff;
+  width: 1200px;
+  background-position: 1px 0;
+  /*height: 25px;*/
+  /*margin-top: -28px;*/
+  padding: 0;
+}
+#global-links {
+  margin: 0 0 0 35px !important;
+  padding: 0;
+  text-align: left;
+  line-height: 17px;
+  height: 25px;
+  font-size: 12px;
+}
+#global-links li {
+  display: block;
+  float: left;
+  font-size: 12px;
+  list-style: none;
+  padding-right: 10px;
+  line-height: 17px;
+  margin: 0;
+  height: 18px;
+}
+#global-links li a {
+  color: #ccc;
+  font-size: 12px;
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+  border-bottom: 1px solid #ccc;
+  text-decoration: none;
+  padding-bottom: 1px;
+}
+#global-links li a:hover {
+  color: #fff;
+}
+#main-menu {
+  background-color: #ffc;
+  border-bottom: 2px solid #ddd;
+  padding: 4px 35px 7px;
+  margin: 0 -33px 5px -29px;
+}
+#body-footer {
+  border-top: 3px solid #059033;
+  background: url(https://web3.unt.edu/riskman/Images/BGs/footerbg.jpg) repeat-x;
+  margin-top: 10px
+  height: 200px;
+}
+#footer-outer {
+  margin-top: 10px;
+}
+.footerblock,
+.footerblock p {
+  float: left;
+  font-family: Verdana,Geneva,sans-serif;
+}
+.footerblock p,
+.footerblock ul li {
+  font-size: 11pt !important;
+  line-height: 18px !important;
+}
+#body-footer a:link {
+  text-decoration: underline;
+}
+#feedback ul {
+  margin-top: 4px !important;
+  margin-left: 30px !important;
+  padding-left: 0 !important;
+  margin-bottom: 10px !important;
+}
+.footerblock h3 {
+  padding: 5px;
+  color: #059033;
+  font-size: 12pt !important;
+  border-bottom: 1px solid #ccc;
+}
+#contact {
+  background: url(https://web3.unt.edu/riskman/Images/BGs/icon-mailbox.jpg) no-repeat;
+}
+#technical {
+  background: url(https://web3.unt.edu/riskman/Images/BGs/icon-content.jpg) no-repeat;
+}
+#feedback {
+  background: url(https://web3.unt.edu/riskman/Images/BGs/icon-system.jpg) no-repeat;
+}
+#contact,
+#technical,
+#feedback {
+  background-position: 32px 18px;
+  padding: 0 15px 0 85px;
+  margin: 0 !important;
+  width: 233px;
+}
+#state {
+  text-align: center;
+  width: 100%;
+  margin: 15px 0 0;
+}
+#state p {
+  font-family: Verdana,Geneva,sans-serif !important;
+  font-size: 11pt !important;
+}
+#body-page {
+  padding: 0 30px 30px;
+  border:1px solid #cccccc;
+}
+#page-header {
+  /*border-bottom: 3px double #ddd;*/
+}
+body.login #page-header {
+  border: none;
+}
+#body-page #page-header {
+  margin-top: -2px;
+}
+#page-header h1 {
+  padding: 4px 6px;
+  margin: 4px 0;
+}
+#page-content {
+  padding: 4px 8px;
+}
+#sessions {
+  width: 100%;
+  border: 0;
+}
+table thead th {
+  border-bottom: 2px solid #aaa;
+}
+table tbody th {
+  background-color: #ddd;
+}
+table tbody tr {
+}
+table tbody th,
+table tbody td {
+  border-bottom: 1px solid #ddd;
+  padding: 3px;
+  font-size: .9em;
+}
+table tbody th {
+  font-size: 1em;
+}
+.view-errors *,
+.view-errors a:hover {
+  color: #fff;
+}
+.view-errors, .view-results {
+  padding: 5px;
+  font-weight: normal;
+}
+.view-errors h5, .view-results h5 {
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+.view-errors p, .view-results p {
+  padding: 5px;
+}
+.form-note {
+  font-size: .7em;
+  float: right;
+  width: 275px;
+}
+.form-required {
+  font-size: .7em;
+  float: left;
+  clear: left;
+  color: #900;
+  width: 200px;
+}
+.inline-form ul {
+  margin: 0;
+  padding: 0;
+}
+.inline-form ul li {
+  list-style-type: none;
+  margin: 2px 0;
+  padding: 3px;
+  background-color: #eee;
+  width: 500px;
+  overflow: auto;
+  clear: both;
+}
+.inline-form .inline-form-submit {
+  background: none;
+  text-align: right;
+}
+.inline-form label {
+  display: block;
+  float: left;
+  width: 220px;
+  font-weight: bold;
+}
+.inline-form label.required span {
+  float: left;
+  margin: 0 0 0 -20px;
+  width: 16px;
+  background-position: 0 -142px;
+}
+.action-text {
+  font-weight: bold;
+  font-size: .6em;
+  color: #000;
+  border: 1px solid #6cc;
+  padding: 0 2px;
+  text-decoration: none;
+  line-height: .3em;
+}
+.action-text:hover {
+  color: #fff;
+  background-color: #900;
+  border-color: #900;
+}
+fieldset {
+  padding: 8px;
+  margin: 3px;
+  border-style: solid;
+  border-color: #ccc;
+}
+fieldset hr {
+  border: none;
+  border-bottom: 2px solid #bbb;
+}
+.inline-view ul {
+  margin: 0;
+  padding: 0;
+}
+.inline-view ul li {
+  list-style-type: none;
+  margin: 2px 0;
+  padding: 3px;
+  width: 575px;
+  overflow: auto;
+  clear: both;
+  border-bottom: 1px solid #eee;
+}
+.inline-view label {
+  display: block;
+  float: left;
+  width: 220px;
+  min-height: 100%;
+  font-weight: bold;
+}
+.inline-view label.required span {
+  float: left;
+  margin: 0 0 0 -20px;
+  width: 16px;
+  background-position: 0 -142px;
+}
+/* css for timepicker */
+.ui-timepicker-div .ui-widget-header{ margin-bottom: 8px; }
+.ui-timepicker-div dl{ text-align: left; }
+.ui-timepicker-div dl dt{ height: 25px; }
+.ui-timepicker-div dl dd{ margin: -25px 0 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+#page-banner,
+#page-weather {
+  background: #33C;
+  border: 2px solid #39F;
+  padding: 3px;
+  margin: 0 -33px 0 -30px;
+}
+#page-weather {
+  background: #900;
+  border: 2px solid #f00;
+}
+#page-weather,
+#page-weather a,
+#page-weather a:hover,
+#page-banner,
+#page-banner a,
+#page-banner a:hover {
+  color: white;
+}
+#page-weather p,
+#page-banner p {
+  padding: 0 2px 16px;
+  margin: 2px 0;
+}
+/* css for page banners */
+#page-weather p.page-weather-item,
+#page-banner p.page-banner-item {
+    text-align: center;
+    display: block;
+    margin: -5px auto;
+    padding-left: 5px;
+}
+#page-weather p.page-weather-item {
+  padding: 8px;
+}
+#page-banner p.page-banner-item.page-banner-icon {
+    margin: -5px 0 -5px 5px;
+    background-repeat: no-repeat;
+    background-position: left center; 
+    padding: 5px 5px 5px 45px;
+}
+#page-banner p.page-banner-item.page-banner-whatsnew {
+    background-image: url(/riskman/Images/Icons/new.png);
+}
